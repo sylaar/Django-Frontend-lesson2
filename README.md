@@ -4,13 +4,36 @@
 
 ## Запуск
 
-Для запуска блога у вас уже должен быть установлен Python 3.
+Скачайте репозиторий
+```sh
+git clone https://github.com/sylaar/Django-Frontend-lesson2.git
+cd Django-Frontend-lesson2
+```
 
-- Скачайте код
-- Установите зависимости командой `pip install -r requirements.txt`
-- Запустите сервер командой `python3 manage.py runserver`
+Создайте виртуальное окружение
+```sh
+python3 -m venv venv
+source venv/bin/activate
+```
 
-После этого переходите по ссылке [127.0.0.1:8000](http://127.0.0.1:8000), вы увидите главную страницу.
+Установите зависимости
+```sh
+pip install -r requirements.txt
+```
+
+Скачайте [архив с данными](https://dvmn.org/media/modules_dist/liza-backend-data.zip)).
+Положите `db.sqlite3` и `media` из архива в папку с кодом рядом с `manage.py`
+
+Примените миграции
+```sh
+python3 manage.py migrate
+```
+
+Запустите сервер
+
+```
+python3 manage.py runserver
+```
 
 ## Переменные окружения
 
