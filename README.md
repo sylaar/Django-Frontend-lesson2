@@ -14,6 +14,7 @@ cd Django-Frontend-lesson2
 ```sh
 python3 -m venv venv
 source venv/bin/activate
+cd blog-backend
 ```
 
 Установите зависимости
