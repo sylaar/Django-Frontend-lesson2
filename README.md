@@ -21,7 +21,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Скачайте [архив с данными](https://dvmn.org/media/modules_dist/liza-backend-data.zip)).
+Скачайте [архив с данными](https://dvmn.org/media/modules_dist/liza-backend-data.zip).
 Положите `db.sqlite3` и `media` из архива в папку с кодом рядом с `manage.py`
 
 Примените миграции
